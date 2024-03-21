@@ -15,6 +15,7 @@ class PdfController extends Controller
         ];
 
         $pdf = Pdf::loadView('generatePassbook', $data);
+        $pdf->set_option('isRemoteEnabled', true);
         return $pdf->download('passbook.pdf');
     }
 }

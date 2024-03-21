@@ -16,10 +16,12 @@
 
     <main>
         <div class="d-flex">
-            <img src="{{ asset('img/logo-bank.png') }}" class="rounded mx-auto d-block" alt="Logo Bank Icon">
+            <img src="https://github.com/badmansp420/passbookGenerator/blob/main/public/assets/img/logo-bank.png"
+                class="rounded mx-auto" alt="Logo Bank Icon" width="200px">
         </div>
         <h2>{{ $title }}</h2>
         <h2>{{ $date }}</h2>
+
     </main>
 
 
