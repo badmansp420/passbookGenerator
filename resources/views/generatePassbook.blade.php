@@ -15,8 +15,11 @@
 <body>
 
     <main>
-        <h2>Title : {{ $title }}</h2>
-        <h2>Date : {{ $date }}</h2>
+        <div class="d-flex">
+            <img src="{{ asset('img/logo-bank.png') }}" class="rounded mx-auto d-block" alt="Logo Bank Icon">
+        </div>
+        <h2>{{ $title }}</h2>
+        <h2>{{ $date }}</h2>
     </main>
 
 

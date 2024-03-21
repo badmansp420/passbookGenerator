@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/passbookGenerate', [PdfController::class, 'generatePassbook']);
+Route::get('/passbook', [PdfController::class, 'generatePassbook']);
